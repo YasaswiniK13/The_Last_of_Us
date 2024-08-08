@@ -1,5 +1,4 @@
-# The-Last-of-Us
- An FPGA enabled multiuser rapid math game
+# The-Last-of-Us: An FPGA enabled multiuser rapid math game
 The proposed FPGA game is a multi-user authentication game inspired by the series "The Last of Us". The player is required to solve a given question within a set time limit, failing which, a fungi will spread, indicated by the LED lights.
  The game has three levels, and in each level, the player is required to shift each generated random number with the key and add the resultant numbers after the shift which would result in a two-digit number. The player needs to input the correct value within the given time limit, failing which, an LED will turn on i.e., the fungi spreads. The objective of the game is to break the spread of the fungi, i.e., turn off all the LEDs before the time limit expires. 
 The game also features score tracking, where the player's score is equivalent to their health. Starting at 51 %, the player's health increases by 10 % from level one to level two and by 20 % from level two to level three and increasing by 1% for every correct answer, decreases for every incorrect answer ultimately reaching a maximum of 99 % when the player passes level three. After completing the game, the player can view their personal and global best scores.
