@@ -1,3 +1,6 @@
+//ECE 6370 ADVANCED DIGITAL DESIGN 
+// Team UNAGI2.0
+//Digit Timer where all the timer related modules are associated
 module TwodigitTimer(Timer_reconfig, Timer_enable, Timeout, Ones7seg, Tens7seg, clk, rst, reconfig_value_ones, reconfig_value_tens);
 input Timer_reconfig, Timer_enable;
 input [3:0]reconfig_value_ones, reconfig_value_tens;
