@@ -1,5 +1,3 @@
-//ECE 6370 ADVANCED DIGITAL DESIGN 
-// Team UNAGI2.0
 // BCD_Binary
 // This module converts two digit BCD into it?s corresponding binary number.
 module BCD_Binary(ones, tens, binary);
