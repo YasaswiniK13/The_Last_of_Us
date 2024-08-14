@@ -1,7 +1,3 @@
-//ECE 6370 ADVANCED DIGITAL DESIGN 
-// Team UNAGI2.0
-//AccessController
-// Main Module for two step verification of the player.
 module AccessController(PlayerID_PSWD, ID_PSWD_Enter, Logout, Loggedin, Player_InternalID, isGuest, clk, rst, IDmatched);
 
 input [3:0]PlayerID_PSWD;
